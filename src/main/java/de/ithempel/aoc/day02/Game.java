@@ -1,4 +1,4 @@
-package de.ithempel.aoc;
+package de.ithempel.aoc.day02;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package de.ithempel.aoc;
+package de.ithempel.aoc.day01;
 
 import java.io.File;
 import java.io.IOException;

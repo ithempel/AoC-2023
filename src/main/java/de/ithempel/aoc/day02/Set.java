@@ -1,4 +1,4 @@
-package de.ithempel.aoc;
+package de.ithempel.aoc.day02;
 
 public record Set(int red, int green, int blue) {
 

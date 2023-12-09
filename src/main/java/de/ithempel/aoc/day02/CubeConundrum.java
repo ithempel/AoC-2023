@@ -1,4 +1,4 @@
-package de.ithempel.aoc;
+package de.ithempel.aoc.day02;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ public class CubeConundrum {
 
     public static void main(String[] args) {
         File gameFile = new File("./src/main/resources/de/ithempel/aoc/games.txt");
-        
+
         try (Stream<String> gameStream = Files.lines(gameFile.toPath())) {
             Game[] games = gameStream
                     .map(Game::fromRecord)
